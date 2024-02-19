@@ -1,0 +1,20 @@
+[package]
+org = "wso2"
+name = "sample"
+version = "0.1.0"
+distribution = "2201.8.1"
+
+[build-options]
+observabilityIncluded = true
+
+[[dependency]]
+org = "ballerinax"
+name = "health.fhir.r4.validator"
+version = "4.1.1"
+
+[[dependency]]
+org = "ballerinax"
+name = "health.fhir.r4"
+version = "4.3.3"
+
+
